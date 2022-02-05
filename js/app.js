@@ -120,7 +120,7 @@ list.addEventListener("click", function(event){
 
 
 document.querySelector("#motivate").addEventListener("click", function () {
-    var Motivate = new Audio('motivate.mp3');
+    var Motivate = new Audio('../audio/motivate.mp3');
     Motivate.play();
   })
 
